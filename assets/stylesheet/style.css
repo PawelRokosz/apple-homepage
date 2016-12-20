@@ -66,3 +66,65 @@ Clearfix
   clear: both;
   *zoom: 1;
 }
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body{
+  background: white;
+  color: #000000;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 100;
+}
+
+/*
+  ========================================
+  Container
+  ========================================
+*/
+
+.container{
+  margin: 0 auto;
+  position: relative;
+  width: 1440px;
+}
+
+.container .hero{
+  background: url(../images/your_verse_hero.jpg) 50% 100% no-repeat;
+  width:1440px;
+  height: 1315px;
+  position: absolute;
+  top: -775px;
+}
+
+.container .hero-footer{
+  position: absolute;
+  top: 543px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.container .hero-footer img{
+  display: inline-block;
+  width: 357px;
+  cursor: pointer;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.container footer{
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  top: 743px;
+}
+
+.container footer{

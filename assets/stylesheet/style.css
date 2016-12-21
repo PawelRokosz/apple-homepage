@@ -92,6 +92,12 @@ body{
   width: 1440px;
 }
 
+/*
+  ========================================
+  Hero
+  ========================================
+*/
+
 .container .hero{
   background: url(../images/your_verse_hero.jpg) 50% 100% no-repeat;
   width:1440px;
@@ -116,6 +122,142 @@ body{
 
 /*
   ========================================
+  Hero-content
+  ========================================
+*/
+
+.container .hero .hero-menu{
+  margin: 790px auto 0;
+  width: 980px;
+  height: 36px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
+              -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%,
+              -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  border-radius: 4px;
+  position: relative;
+}
+
+.container .hero .hero-menu a{
+  float: left;
+  padding: 0 50px;
+  border-right: 1px solid #666;
+  height: 36px;
+  position: relative;
+}
+
+.container .hero .hero-menu a:hover{
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.container .hero .hero-menu a.last{
+  border: none;
+  width: 73px;
+  cursor:default;
+}
+
+.container .hero .hero-menu a.last:hover{
+  background: transparent;
+}
+
+.container .hero .hero-menu a input{
+  height: 17px;
+  width: 130px;
+  border-radius: 100px;
+  border-top: 1px solid #666;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  border-bottom: none;
+  text-indent: 5px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+.container .hero .hero-menu img{
+  width: 30px;
+  position: absolute;
+  left: 36px;
+  top: 2px;
+}
+
+.container .hero .hero-menu span{
+  font-size: 13px;
+  color: white;
+  position: absolute;
+  top: 8px;
+}
+
+.container .hero .hero-menu .one{
+  left: 36px;
+}
+
+.container .hero .hero-menu .two{
+  left: 39px;
+}
+
+.container .hero .hero-menu .three{
+  left: 37px;
+}
+
+.container .hero .hero-menu .four{
+  left: 30px;
+}
+
+.container .hero .hero-menu .five{
+  left: 39px;
+}
+
+.container .hero .hero-menu .six{
+  left: 30px;
+}
+
+.container .hero .hero-menu .seven{
+  left: 27px;
+}
+
+.container .hero .hero-title{
+  margin: 100px auto 9px auto;
+  width: 980px;
+  height: 104px;
+}
+
+.container .hero .hero-title p{
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container .hero .hero-description{
+  margin: 20px auto 0;
+  width: 980px;
+  height: 82px;
+}
+
+.container .hero .hero-description p{
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.container .hero .hero-small{
+  margin: 30px auto 0;
+  width: 980px;
+  height: 64px;
+}
+
+.container .hero .hero-small p{
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+/*
+  ========================================
   Footer
   ========================================
 */
@@ -124,7 +266,63 @@ body{
   width: 100%;
   height: 90px;
   position: absolute;
-  top: 743px;
+  top: 763px;
 }
 
-.container footer{
+.container footer .links-box{
+  width: 980px;
+  height: 54px;
+  margin: auto;
+  font-size: 10px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #6e6e6e;
+  font-weight: 100;
+}
+
+.container footer .links-box .left{
+  float: left;
+}
+
+.container footer .links-box .right{
+  float: right;
+  color: #08c;
+}
+
+.container footer .links-box .right p{
+  display: inline;
+  padding: 0 7px;
+  border-right: 1px solid #6e6e6e;
+  cursor: pointer;
+}
+
+.container footer .links-box .right p:hover{
+  text-decoration: underline;
+}
+
+.container footer .links-box .left span{
+  color: #08c;
+  cursor: pointer;
+}
+
+.container footer .links-box .left span:hover{
+  text-decoration: underline;
+}
+
+.container footer .links-box .very-bottom{
+  padding-top: 30px;
+}
+
+.container footer .links-box .very-bottom span{
+  color: #08c;
+  cursor: pointer;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.container footer .links-box .very-bottom span:hover{
+  text-decoration: underline;
+}
+
+.container footer .links-box .very-bottom span.span-border{
+  border-right: 1px solid #6e6e6e;
+}
